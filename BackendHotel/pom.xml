@@ -78,11 +78,7 @@
 			<version>0.12.6</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
-		<dependency>
-			<groupId>com.amazonaws</groupId>
-			<artifactId>aws-java-sdk-s3</artifactId>
-			<version>1.12.780</version>
-		</dependency>
+
 
 	</dependencies>
 
