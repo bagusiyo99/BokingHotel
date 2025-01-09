@@ -20,3 +20,4 @@ public class BookingDTO {
     private UserDTO user;
     private RoomDTO room;
 }
+

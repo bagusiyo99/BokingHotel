@@ -2,6 +2,7 @@ package com.backendHotel.BackendHotel.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -48,6 +49,10 @@ public class User implements UserDetails {
         return email;
     }
 
+    @Override
+    public String getPassword() {
+        return password; // Properti password diakses di sini
+    }
 
     @Override
     public boolean isAccountNonExpired() {
