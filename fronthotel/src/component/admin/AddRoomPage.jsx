@@ -17,6 +17,7 @@ const AddRoomPage = () => {
   const [roomTypes, setRoomTypes] = useState([]);
   const [newRoomType, setNewRoomType] = useState(false);
 
+  //room
   useEffect(() => {
     const fetchRoomTypes = async () => {
       try {

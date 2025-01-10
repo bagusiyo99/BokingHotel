@@ -84,7 +84,7 @@ export default class ApiService {
     return response.data;
   }
 
-  /**ROOM */
+  /**  ROOM */
   /* This  adds a new room room to the database */
   static async addRoom(formData) {
     const result = await axios.post(`${this.BASE_URL}/rooms/add`, formData, {

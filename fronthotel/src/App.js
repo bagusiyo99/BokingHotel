@@ -26,7 +26,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            {/* Public Routes */}
+            {/* Public router */}
             <Route exact path="/home" element={<HomePage />} />
             <Route exact path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
